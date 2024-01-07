@@ -4,7 +4,7 @@
 > Grab all your (virtual) threads, reach out to SIMD, optimize your GC, or pull any other trick, and create the fastest implementation for solving this task!
 
 ## Solutions
----
+
 Tested on 3.60GHz AMD Ryzen 5 3600 6-Core Processor | 16.0 GB (3GB usable) | Win-x64 | Windows 11 Pro 22H2
 
 Ranking are based on the results generated on my local machine - they may differ (improve) in other environment
