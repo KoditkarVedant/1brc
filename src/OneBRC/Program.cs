@@ -1,14 +1,17 @@
 ﻿using System.Diagnostics;
+using OneBRC;
 using OneBRC.Dumb;
+using OneBRC.Naive;
 
 var solutions = new Dictionary<string, Type>()
 {
-    { "dumb", typeof(Dumb) }
+    { "dumb", typeof(Dumb) },
+    { "naive", typeof(Naive) }
 };
 
 if (args.Length != 2)
 {
-    Console.WriteLine("Usage: 1brc <type> <measurements.txt>");
+    Console.WriteLine("Usage: OneBRC <type> <measurements.txt>");
     return;
 }
 
@@ -35,8 +38,3 @@ Console.WriteLine();
 Console.WriteLine();
 Console.WriteLine($"DONE: Processed in {sw.Elapsed}");
 Console.WriteLine();
-
-public interface ISolution : IDisposable
-{
-    void Process(string filePath);
-}
