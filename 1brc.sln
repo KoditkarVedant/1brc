@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4BA728AD-407
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeasurementGenerator", "src\MeasurementGenerator\MeasurementGenerator.csproj", "{A7B729E6-F784-40F5-AE0D-A506C0C8F719}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneBRC", "src\OneBRC\OneBRC.csproj", "{0EFE4157-3EEA-43E3-8A54-B000865021BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{A7B729E6-F784-40F5-AE0D-A506C0C8F719}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7B729E6-F784-40F5-AE0D-A506C0C8F719}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7B729E6-F784-40F5-AE0D-A506C0C8F719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFE4157-3EEA-43E3-8A54-B000865021BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFE4157-3EEA-43E3-8A54-B000865021BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFE4157-3EEA-43E3-8A54-B000865021BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFE4157-3EEA-43E3-8A54-B000865021BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A7B729E6-F784-40F5-AE0D-A506C0C8F719} = {4BA728AD-4071-480B-B2C8-DC8B8EFEB488}
+		{0EFE4157-3EEA-43E3-8A54-B000865021BB} = {4BA728AD-4071-480B-B2C8-DC8B8EFEB488}
 	EndGlobalSection
 EndGlobal
