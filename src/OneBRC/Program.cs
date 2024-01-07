@@ -2,11 +2,13 @@
 using OneBRC;
 using OneBRC.Dumb;
 using OneBRC.Naive;
+using OneBRC.ParallelMemoryMappedFile;
 
 var solutions = new Dictionary<string, Type>()
 {
     { "dumb", typeof(Dumb) },
-    { "naive", typeof(Naive) }
+    { "naive", typeof(Naive) },
+    { "pmmf", typeof(ParallelMemoryMappedFile) }
 };
 
 if (args.Length != 2)
