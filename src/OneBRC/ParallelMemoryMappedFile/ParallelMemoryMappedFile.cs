@@ -193,7 +193,7 @@ public class ParallelMemoryMappedFile : ISolution
 
         public override string ToString()
         {
-            return $"{_min / 10.0:N1}/{Average / 10.0:N1}/{_max / 10.0:N1}";
+            return $"{_min:N1}/{Average:N1}/{_max:N1}";
         }
     }
 
